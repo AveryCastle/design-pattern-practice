@@ -1,0 +1,8 @@
+3-1.
+
+3-2. final로 인하여 overriding을 할 수 없기 때문에 내용 변경이 불가능하게 된다.
+
+3-3. 세 method의 접근제어자를 protected로 변경한다.
+
+3-4. java8부터는 default method로 interface로도 가능하다.
+     단, template method의 내용을 상속받아서 변경할 수가 있다.
