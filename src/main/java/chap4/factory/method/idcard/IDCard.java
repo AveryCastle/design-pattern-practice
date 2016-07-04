@@ -9,7 +9,7 @@ public class IDCard implements Product {
 
     private String owner;
 
-    public IDCard(String owner) {
+    IDCard(String owner) {
         this.owner = owner;
         System.out.println(owner + "의 카드를 만듭니다.");
     }
