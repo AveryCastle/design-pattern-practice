@@ -1,0 +1,4 @@
+5-3. Single Thread 환경에서는 Instance가 1개만 생성된다는 것을 보장하지만
+Multi Thread 환경에서는 보장을 못 할 수 있다. Thread가 동시에 if문에 들어가는 상황에서는
+서로 다른 Instance를 생성해서 반환할 수 있어서 Singleton 디자인 패턴이 깨지게 된다.
+참고: http://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
